@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #eeeaeace;
+    color: #09090a;
+    line-height: 1.5;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin : 5px 20px 20px 20px;
+    border-radius: 10px;
+    background-color: #eeeaeace;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #09090a;
+    cursor: pointer;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #09090a;
+}
+nav ul li a:hover{
+    color: #747373;
+    transition: color 0.3s ease;
+    border-bottom: 2px solid #09090a;
+}
+
+section{
+    padding: 50px;
+    text-align: center;
+    margin: 20px;
+    background-color: #d3bcf4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#home h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #09090a;
+}
+
+#home img{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+
+button{
+    background-color: #09090a;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: #747373;
+}
+
+p{
+    font-size: 1.2rem;
+    color: #09090a;
+    margin-top: 20px;
+}
+
+#name{
+    color: #ffffff;
+    font-size: 3.5rem;
+    font-weight: 900;
+    border-bottom: 2px solid #ffffff;
+}
+
+#about{
+    background-color: #bcf4d3;
+    text-align:justify;
+}
+#about h2{
+    font-size: 2rem;
+    font-weight: 900;
+    color: #000000;
+}
+
+#about span{
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #86868685;
+    padding: 3px 6px;
+    border-radius: 7px;
+}
+
+#skills{
+    background-color: #f4d3bc;
+}
+#skills h2{
+    font-size: 2rem;
+    font-weight: 900;
+    color: #000000;
+}
+
+#skills .skills-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#skills .skill{
+    background-color: #000000;
+    color: #ffffff;
+    width: 100px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+#projects{
+    background-color: #bcf4d3;
+}
+#projects h2{
+    font-size: 2rem;
+    font-weight: 900;
+    color: #000000;
+}
+
+#projects .project-container{
+    display: flex;
+    justify-content: space-between;
+    align-items:stretch;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 20px 100px;
+}
+
+#projects .project{
+    background-color: #000000;
+    color: #ffffff;
+    width: 120px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+#contact{
+    background-color: #d3bcf4;
+}
+
+#contact h2{
+    font-size: 2rem;
+    font-weight: 900;
+    color: #000000;
+}
+
+#contact form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact form input{
+    width: 100%;
+    max-width: 50%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#contact form textarea{
+    width: 100%;
+    max-width: 50%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#contact form button{
+    background-color: #f90707;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#contact form button:hover{
+    background-color: #747373;
+}
+
