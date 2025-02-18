@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="validation.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="form-container">
+            <form action="#">
+                <h2>Contact Us</h2>
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required>
+                    <label for="name">Your Name</label>
+                </div>
+                
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required>
+                    <label for="name">Your Email</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="subject" name="subject" required>
+                    <label for="name">Your Subject</label>
+                </div>
+
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" required ></textarea>
+                    <label for="name">Your Massage</label>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="responseMessage"></div>
+        </div>
+    </div>
+</body>
+</html>

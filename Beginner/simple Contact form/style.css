@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0267fe 10%, #67c3c9 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+#form-container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px 0 10px 5px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #a1a1a1;
+    outline: none;
+    background-color:#f4f0f0;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+label {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #999;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+input:focus ~ label,
+input:valid ~ label,
+textarea:focus ~ label,
+textarea:valid ~ label {
+    top: -20px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #00ffa6;
+}
+
+input:focus,
+textarea:focus {
+    border-bottom: 2px solid  #00ffa6;
+}
+/* #4CAF50 */
+button {
+    background: #070707;
+    color: rgb(255, 255, 255);
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #00ffa6;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#responseMessage{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
