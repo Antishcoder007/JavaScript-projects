@@ -38,6 +38,7 @@ nav ul li{
     cursor: pointer;
 }
 
+
 nav ul li a{
     text-decoration: none;
     color: #09090a;
@@ -83,6 +84,10 @@ button{
 }
 button:hover{
     background-color: #747373;
+}
+button a{
+    text-decoration: none;
+    color:#ffffff;
 }
 
 p{
@@ -147,6 +152,7 @@ p{
 
 #projects{
     background-color: #bcf4d3;
+    flex-wrap: wrap;
 }
 #projects h2{
     font-size: 2rem;
@@ -156,12 +162,12 @@ p{
 
 #projects .project-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items:stretch;
     align-content: center;
     flex-wrap: wrap;
     margin-top: 20px;
-    padding: 20px 100px;
+    padding: 20px 10px;
 }
 
 #projects .project{
